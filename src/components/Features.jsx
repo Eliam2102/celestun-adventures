@@ -7,7 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 const features = [
     {
         title: "Privacidad Total",
-        description: "Tu experiencia es tuya. Nuestras lanchas son privadas, lo que significa que tú decides el ritmo, sin compartir espacio con desconocidos ni prisas de grupos grandes.",
+        description: "Disfruta de un recorrido privado diseñado para tu comodidad y la de tus acompañantes. La lancha será exclusiva para ustedes, permitiéndoles vivir la experiencia con total libertad y sin prisas.",
         icon: (
             <svg className="w-8 h-8 md:w-10 md:h-10 text-flamingo" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
