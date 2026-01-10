@@ -85,6 +85,7 @@ const TourCard = ({ tour, onClick }) => {
                         src={displaySource}
                         className="w-full h-full object-cover transition-transform duration-700 opacity-60 group-hover:scale-105"
                         alt={tour.title}
+                        loading="lazy"
                     />
                 )}
 
@@ -128,9 +129,9 @@ const Tours = () => {
     return (
         <section id="tours" className="bg-black-pure dark:bg-white py-20 md:py-32 overflow-hidden transition-colors duration-500">
             <div className="px-6 md:px-10 mb-16 max-w-[1800px] mx-auto">
-                <h3 className="text-4xl md:text-7xl font-extrabold tracking-tighter mb-4 uppercase text-white dark:text-black-pure transition-colors">
+                <h2 className="text-4xl md:text-7xl font-extrabold tracking-tighter mb-4 uppercase text-white dark:text-black-pure transition-colors">
                     Tours<span className="text-flamingo">.</span>
-                </h3>
+                </h2>
                 <p className="text-flamingo font-serif italic text-xl md:text-2xl">Seleccionados para el viajero consciente</p>
             </div>
 

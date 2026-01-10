@@ -67,9 +67,9 @@ const Features = () => {
         <section className="w-full bg-white dark:bg-black-pure py-20 md:py-32 text-black dark:text-white">
             <div className="w-full px-6 md:px-10">
                 <div className="mb-16 md:mb-24 text-center max-w-4xl mx-auto">
-                    <h3 className="text-flamingo font-bold uppercase tracking-[0.2em] text-xs md:text-sm mb-4">
+                    <p className="text-flamingo font-bold uppercase tracking-[0.2em] text-xs md:text-sm mb-4">
                         ¿Por qué elegirnos?
-                    </h3>
+                    </p>
                     <h2 className="text-4xl md:text-6xl font-extrabold tracking-tighter mb-6">
                         La Diferencia <br />
                         <span className="font-serif italic font-light text-flamingo">Celestún Adventures.</span>

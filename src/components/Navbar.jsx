@@ -90,7 +90,7 @@ const Navbar = () => {
                     </button>
 
                     <div className="flex items-center gap-6 md:gap-10">
-                        <div className="hidden md:flex gap-10 text-[11px] uppercase tracking-[0.2em] font-bold text-white/70 dark:text-black-pure/70 transition-colors">
+                        <div className="hidden md:flex gap-10 text-[11px] uppercase tracking-[0.2em] font-bold text-white/90 dark:text-black-pure/90 transition-colors">
                             <button onClick={() => handleNavigation('#experiencia')} className="hover:text-flamingo transition-colors">Experiencia</button>
                             <button onClick={() => handleNavigation('#galeria')} className="hover:text-flamingo transition-colors">Galería</button>
                             <button onClick={() => handleNavigation('#tours')} className="hover:text-flamingo transition-colors">Tours</button>
@@ -101,6 +101,7 @@ const Navbar = () => {
                         {/* Botón Tema - Visible en Desktop */}
                         <button
                             onClick={toggleTheme}
+                            aria-label="Alternar tema oscuro/claro"
                             className="hidden md:flex relative w-12 h-6 rounded-full border border-flamingo/50 hover:border-flamingo items-center px-1 transition-colors"
                         >
                             <div
@@ -109,7 +110,7 @@ const Navbar = () => {
                         </button>
 
                         {/* Botón Menú Móvil */}
-                        <button onClick={() => setIsMobileMenuOpen(true)} className="md:hidden text-white dark:text-black-pure focus:outline-none">
+                        <button onClick={() => setIsMobileMenuOpen(true)} className="md:hidden text-white dark:text-black-pure focus:outline-none" aria-label="Abrir menú de navegación">
                             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 8h16M4 16h16"></path>
                             </svg>
@@ -123,7 +124,7 @@ const Navbar = () => {
                 id="mobile-nav-overlay"
                 className={`fixed inset-0 bg-flamingo z-[60] md:hidden flex items-center justify-center ${isMobileMenuOpen ? 'active' : ''}`}
             >
-                <button onClick={() => setIsMobileMenuOpen(false)} className="absolute top-6 right-6 text-white text-3xl focus:outline-none z-[70]">&times;</button>
+                <button onClick={() => setIsMobileMenuOpen(false)} className="absolute top-6 right-6 text-white text-3xl focus:outline-none z-[70]" aria-label="Cerrar menú">&times;</button>
                 <div className="flex flex-col gap-8 text-center text-white text-3xl font-extrabold uppercase tracking-tighter items-center">
                     <button onClick={() => handleNavigation('/')} className="mobile-link">Inicio</button>
                     <button onClick={() => handleNavigation('#experiencia')} className="mobile-link">Experiencia</button>
@@ -137,6 +138,7 @@ const Navbar = () => {
                         <span>MODO</span>
                         <button
                             onClick={toggleTheme}
+                            aria-label="Alternar tema oscuro/claro móvil"
                             className="relative w-12 h-6 rounded-full border border-white hover:border-white/80 flex items-center px-1 transition-colors bg-black/20"
                         >
                             <div
