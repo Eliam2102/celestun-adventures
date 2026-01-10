@@ -18,35 +18,35 @@ const Gallery = () => {
                     <div className="gallery-item col-span-2 md:col-span-1 h-[300px] md:h-[600px]">
                         <img
                             src="https://res.cloudinary.com/diw2luuur/image/upload/v1767936980/flamingo_oapbvt.jpg"
-                            className="w-full h-full object-cover grayscale hover:grayscale-0"
+                            className="w-full h-full object-cover md:grayscale md:hover:grayscale-0"
                             alt="Flamingos"
                         />
                     </div>
                     <div className="gallery-item col-span-2 md:col-span-2 h-[350px] md:h-[600px] md:-mt-20">
                         <img
                             src="https://res.cloudinary.com/diw2luuur/image/upload/v1767937262/WhatsApp_Image_2025-12-31_at_15.32.39_uq2e26.jpg"
-                            className="w-full h-full object-cover grayscale hover:grayscale-0"
+                            className="w-full h-full object-cover md:grayscale md:hover:grayscale-0"
                             alt="Atardecer"
                         />
                     </div>
                     <div className="gallery-item col-span-2 md:col-span-1 h-[300px] md:h-[500px]">
                         <img
                             src="https://res.cloudinary.com/diw2luuur/image/upload/v1767937260/WhatsApp_Image_2026-01-05_at_09.25.01_yxy7b8.jpg"
-                            className="w-full h-full object-cover grayscale hover:grayscale-0"
+                            className="w-full h-full object-cover md:grayscale md:hover:grayscale-0"
                             alt="Bote"
                         />
                     </div>
                     <div className="gallery-item col-span-1 md:col-span-2 h-[250px] md:h-[500px]">
                         <img
                             src="https://res.cloudinary.com/diw2luuur/image/upload/v1768027787/WhatsApp_Image_2026-01-10_at_00.49.26_wg9tk6.jpg"
-                            className="w-full h-full object-cover grayscale hover:grayscale-0"
+                            className="w-full h-full object-cover md:grayscale md:hover:grayscale-0"
                             alt="Naturaleza"
                         />
                     </div>
                     <div className="gallery-item col-span-1 md:col-span-2 h-[250px] md:h-[500px] md:-mt-24">
                         <img
                             src="https://res.cloudinary.com/diw2luuur/image/upload/v1767937442/family_dsim8z.jpg"
-                            className="w-full h-full object-cover grayscale hover:grayscale-0"
+                            className="w-full h-full object-cover md:grayscale md:hover:grayscale-0"
                             alt="Playa"
                         />
                     </div>
