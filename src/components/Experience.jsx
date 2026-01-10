@@ -33,7 +33,7 @@ const Experience = () => {
                 <div className="md:col-span-7 space-y-12 md:space-y-20">
                     <div className="relative overflow-hidden group">
                         <img
-                            src="https://res.cloudinary.com/diw2luuur/image/upload/v1768027336/IMG_6453_mbdtx6.jpg"
+                            src="https://res.cloudinary.com/diw2luuur/image/upload/f_auto,q_auto/v1768027336/IMG_6453_mbdtx6.jpg"
                             className="img-reveal w-full aspect-[16/9] object-cover transition-all duration-700"
                             alt="Flamingos Rosados y Naturaleza en Ría Celestún"
                             loading="lazy"

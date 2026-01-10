@@ -43,6 +43,7 @@ const Hero = () => {
                 <img
                     src={heroImage}
                     alt="Flamingos"
+                    fetchPriority="high"
                     className="w-full h-full object-cover grayscale brightness-50 dark:grayscale-0 dark:brightness-100 opacity-60 dark:opacity-40 transition-all duration-700"
                 />
             </div>

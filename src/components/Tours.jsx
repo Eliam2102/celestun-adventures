@@ -8,9 +8,9 @@ const toursData = [
         price: "$4,100 MXN",
         time: "1 hr 20 min",
         label: "1-6 Pax · Lancha Privada",
-        image: "https://res.cloudinary.com/diw2luuur/image/upload/v1768021471/PHOTO-2025-12-31-15-33-16_vctdbi.jpg",
+        image: "https://res.cloudinary.com/diw2luuur/image/upload/f_auto,q_auto/v1768021471/PHOTO-2025-12-31-15-33-16_vctdbi.jpg",
         images: [
-            "https://res.cloudinary.com/diw2luuur/image/upload/v1768021471/PHOTO-2025-12-31-15-33-16_vctdbi.jpg",
+            "https://res.cloudinary.com/diw2luuur/image/upload/f_auto,q_auto/v1768021471/PHOTO-2025-12-31-15-33-16_vctdbi.jpg",
             "https://res.cloudinary.com/diw2luuur/video/upload/v1768023935/IMG_6480_fhh9pl.mov"
         ],
         description: "Recorrido en lancha por la Reserva de la Biosfera. Visita la colonia de flamencos, Isla de Pájaros, túnel de manglares y el ojo de agua dulce. Salida por el santuario. Incluye guía federal certificado."
@@ -21,13 +21,13 @@ const toursData = [
         price: "$1,700 MXN",
         time: "1 hr 30 min",
         label: "2-4 Pax · En Tuk Tuk",
-        image: "https://res.cloudinary.com/diw2luuur/image/upload/v1768024338/IMG_6452_vs8jcg.jpg",
+        image: "https://res.cloudinary.com/diw2luuur/image/upload/f_auto,q_auto/v1768024338/IMG_6452_vs8jcg.jpg",
         images: [
-            "https://res.cloudinary.com/diw2luuur/image/upload/v1768024338/IMG_6452_vs8jcg.jpg",
-            "https://res.cloudinary.com/diw2luuur/image/upload/v1768020783/31451781-d4f8-4b3f-af41-890cda1fd8fd_agrstg.jpg",
-            "https://res.cloudinary.com/diw2luuur/image/upload/v1768020782/7429472b-792e-400d-88f4-6842ffae23cf_b6sggn.jpg",
-            "https://res.cloudinary.com/diw2luuur/image/upload/v1768020781/50f4b1d3-4ac1-4fbb-9f0c-231e6e5e178c_ymar6o.jpg",
-            "https://res.cloudinary.com/diw2luuur/image/upload/v1768020784/3789fd6a-7c65-432c-b190-ac069395c57c_fbwdpv.jpg",
+            "https://res.cloudinary.com/diw2luuur/image/upload/f_auto,q_auto/v1768024338/IMG_6452_vs8jcg.jpg",
+            "https://res.cloudinary.com/diw2luuur/image/upload/f_auto,q_auto/v1768020783/31451781-d4f8-4b3f-af41-890cda1fd8fd_agrstg.jpg",
+            "https://res.cloudinary.com/diw2luuur/image/upload/f_auto,q_auto/v1768020782/7429472b-792e-400d-88f4-6842ffae23cf_b6sggn.jpg",
+            "https://res.cloudinary.com/diw2luuur/image/upload/f_auto,q_auto/v1768020781/50f4b1d3-4ac1-4fbb-9f0c-231e6e5e178c_ymar6o.jpg",
+            "https://res.cloudinary.com/diw2luuur/image/upload/f_auto,q_auto/v1768020784/3789fd6a-7c65-432c-b190-ac069395c57c_fbwdpv.jpg",
             "https://res.cloudinary.com/diw2luuur/video/upload/v1768029227/d55d31ef-3906-40bf-b1bf-d6fc178ddead_zbpyra.mov"
         ],
         description: "Explora la Reserva por tierra. Visita las Aguas Rosas, diferentes tipos de sal, bosque petrificado y la Hacienda Salinera 'La Herradura del Siglo XXI'. Incluye identificación de aves."
@@ -38,7 +38,7 @@ const toursData = [
         price: "Cotizar",
         time: "A medida",
         label: "Personalizado · Whatsapp",
-        image: "https://res.cloudinary.com/diw2luuur/image/upload/v1767937261/birdwatching_iers9o.jpg",
+        image: "https://res.cloudinary.com/diw2luuur/image/upload/f_auto,q_auto/v1767937261/birdwatching_iers9o.jpg",
         description: "Experiencia especializada para birdwatchers y fotógrafos. El itinerario y precio dependen de tus objetivos y tamaño del grupo. Contáctanos directamente para diseñar tu salida.",
         whatsapp: true
     }
