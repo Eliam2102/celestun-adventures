@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+@theme {
+  --color-flamingo: #FF2D85;
+  --color-flamingo-dark: #D41465;
+  --color-black-pure: #000000;
+  --color-black-soft: #0A0A0A;
+
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+}
+
+
+/* Force class-based dark mode */
+@variant dark (&:where(.dark, .dark *));
+
+html {
+  overscroll-behavior: none;
+  height: 100%;
+}
+
+:root {
+  --flamingo: #FF2D85;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  overflow-x: hidden;
+  min-height: 100%;
+  overscroll-behavior: none;
+  @apply bg-black-pure text-white dark:bg-white dark:text-black-pure selection:bg-flamingo selection:text-white;
+}
+
+.font-serif {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/* Cursor personalizado */
+#cursor {
+  width: 20px;
+  height: 20px;
+  background: var(--flamingo);
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+  transition: transform 0.2s ease;
+}
+
+.section-reveal {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+/* Máscara de imagen */
+.img-reveal {
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  transition: clip-path 1.2s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.img-reveal.active {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.sticky-title {
+  position: sticky;
+  top: 100px;
+}
+
+@media (max-width: 768px) {
+  .sticky-title {
+    position: relative;
+    top: 0;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Galería */
+.gallery-item {
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery-item img {
+  transition: transform 0.8s cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.gallery-item:hover img {
+  transform: scale(1.08);
+}
+
+/* Cápsula de Scroll */
+.scroll-capsule {
+  width: 20px;
+  height: 34px;
+  border: 2px solid rgba(255, 45, 133, 0.4);
+  border-radius: 20px;
+  position: relative;
+}
+
+.scroll-dot {
+  width: 3px;
+  height: 5px;
+  background: var(--flamingo);
+  border-radius: 2px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 6px;
+}
+
+/* Menú Móvil Overlay */
+#mobile-nav-overlay {
+  clip-path: circle(0% at 90% 5%);
+  transition: clip-path 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+#mobile-nav-overlay.active {
+  clip-path: circle(150% at 90% 5%);
+}
+
+.mode-dot {
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
