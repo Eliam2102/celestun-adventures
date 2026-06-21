@@ -91,9 +91,9 @@ const Navbar = () => {
 
                     <div className="flex items-center gap-6 md:gap-10">
                         <div className="hidden md:flex gap-10 text-[11px] uppercase tracking-[0.2em] font-bold text-white/90 dark:text-black-pure/90 transition-colors">
-                            <button onClick={() => handleNavigation('#experiencia')} className="hover:text-flamingo transition-colors">Experiencia</button>
                             <button onClick={() => handleNavigation('#galeria')} className="hover:text-flamingo transition-colors">Galería</button>
                             <button onClick={() => handleNavigation('#tours')} className="hover:text-flamingo transition-colors">Tours</button>
+                            <button onClick={() => handleNavigation('#resenas')} className="hover:text-flamingo transition-colors">Reseñas</button>
                             <button onClick={() => handleNavigation('#reserva')} className="hover:text-flamingo transition-colors">Contacto</button>
                             <button onClick={() => handleNavigation('/agendar')} className="bg-flamingo text-white px-6 py-2 rounded-full hover:bg-white hover:text-flamingo transition-all">Agendar</button>
                         </div>
@@ -127,9 +127,9 @@ const Navbar = () => {
                 <button onClick={() => setIsMobileMenuOpen(false)} className="absolute top-6 right-6 text-white text-3xl focus:outline-none z-[70]" aria-label="Cerrar menú">&times;</button>
                 <div className="flex flex-col gap-8 text-center text-white text-3xl font-extrabold uppercase tracking-tighter items-center">
                     <button onClick={() => handleNavigation('/')} className="mobile-link">Inicio</button>
-                    <button onClick={() => handleNavigation('#experiencia')} className="mobile-link">Experiencia</button>
                     <button onClick={() => handleNavigation('#galeria')} className="mobile-link">Galería</button>
                     <button onClick={() => handleNavigation('#tours')} className="mobile-link">Tours</button>
+                    <button onClick={() => handleNavigation('#resenas')} className="mobile-link">Reseñas</button>
                     <button onClick={() => handleNavigation('#reserva')} className="mobile-link">Contacto</button>
                     <button onClick={() => handleNavigation('/agendar')} className="mobile-link bg-white text-flamingo px-8 py-2 rounded-full mt-4">Agendar Ahora</button>
 
