@@ -10,6 +10,7 @@ import Cursor from '../components/Cursor';
 import Loader from '../components/Loader';
 
 import Features from '../components/Features';
+import Reviews from '../components/Reviews';
 import BlogSection from '../components/BlogSection';
 
 const Home = () => {
@@ -34,6 +35,7 @@ const Home = () => {
                 <Experience />
                 <Gallery />
                 <Tours />
+                <Reviews />
                 <BlogSection />
                 <Contact />
             </main>
