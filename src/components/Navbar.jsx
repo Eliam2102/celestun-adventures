@@ -94,6 +94,7 @@ const Navbar = () => {
                             <button onClick={() => handleNavigation('#galeria')} className="hover:text-flamingo transition-colors">Galería</button>
                             <button onClick={() => handleNavigation('#tours')} className="hover:text-flamingo transition-colors">Tours</button>
                             <button onClick={() => handleNavigation('#resenas')} className="hover:text-flamingo transition-colors">Reseñas</button>
+                            <button onClick={() => handleNavigation('#faq')} className="hover:text-flamingo transition-colors">FAQ</button>
                             <button onClick={() => handleNavigation('#reserva')} className="hover:text-flamingo transition-colors">Contacto</button>
                             <button onClick={() => handleNavigation('/agendar')} className="bg-flamingo text-white px-6 py-2 rounded-full hover:bg-white hover:text-flamingo transition-all">Agendar</button>
                         </div>
@@ -130,6 +131,7 @@ const Navbar = () => {
                     <button onClick={() => handleNavigation('#galeria')} className="mobile-link">Galería</button>
                     <button onClick={() => handleNavigation('#tours')} className="mobile-link">Tours</button>
                     <button onClick={() => handleNavigation('#resenas')} className="mobile-link">Reseñas</button>
+                    <button onClick={() => handleNavigation('#faq')} className="mobile-link">FAQ</button>
                     <button onClick={() => handleNavigation('#reserva')} className="mobile-link">Contacto</button>
                     <button onClick={() => handleNavigation('/agendar')} className="mobile-link bg-white text-flamingo px-8 py-2 rounded-full mt-4">Agendar Ahora</button>
 

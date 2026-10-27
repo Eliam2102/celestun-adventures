@@ -1,7 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 
-const SENJA_FORM_SRC = 'https://senja.io/p/celestun-adventures/r/JGJjWr?mode=embed';
-
 const Reviews = () => {
     const scriptsLoaded = useRef(false);
 
@@ -17,7 +15,6 @@ const Reviews = () => {
             resizerScript.onload = () => {
                 if (window.iFrameResize) {
                     window.iFrameResize({ log: false, checkOrigin: false }, '#wall-of-love-jPxMoad');
-                    window.iFrameResize({ log: false, checkOrigin: false }, '#senja-collector-iframe');
                 }
             };
             document.body.appendChild(resizerScript);
@@ -27,7 +24,7 @@ const Reviews = () => {
     return (
         <section id="resenas" className="w-full bg-black-pure dark:bg-white pt-4 pb-20 md:pb-32 text-white dark:text-black-pure overflow-hidden">
             <div className="w-full px-6 md:px-10">
-                <div className="mb-16 md:mb-24 text-center max-w-4xl mx-auto">
+                <div className="mb-8 md:mb-12 text-center max-w-4xl mx-auto">
                     <p className="text-flamingo font-bold uppercase tracking-[0.2em] text-xs md:text-sm mb-4">
                         Lo que dicen nuestros viajeros
                     </p>
@@ -42,20 +39,7 @@ const Reviews = () => {
                     </p>
                 </div>
 
-                <div className="max-w-3xl mx-auto mb-20">
-                    <iframe
-                        id="senja-collector-iframe"
-                        src={SENJA_FORM_SRC}
-                        allow="camera;microphone"
-                        title="Deja tu reseña"
-                        frameBorder="0"
-                        scrolling="auto"
-                        width="100%"
-                        height="700"
-                    />
-                </div>
-
-                <div className="overflow-hidden">
+                <div>
                     <iframe
                         id="wall-of-love-jPxMoad"
                         src="https://senja.io/p/celestun-adventures/jPxMoad?hideNavigation=true&embed=true"
@@ -63,7 +47,7 @@ const Reviews = () => {
                         frameBorder="0"
                         scrolling="no"
                         width="100%"
-                        style={{ marginTop: '-210px' }}
+                        style={{ clipPath: 'inset(210px 0 0 0)', marginTop: '-210px' }}
                     />
                 </div>
             </div>

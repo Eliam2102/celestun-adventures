@@ -29,6 +29,7 @@ const Footer = () => {
                             <li><button onClick={() => scrollToSection('#experiencia')} className="hover:translate-x-2 inline-block transition-transform hover:text-flamingo text-left">La Experiencia</button></li>
                             <li><button onClick={() => scrollToSection('#galeria')} className="hover:translate-x-2 inline-block transition-transform hover:text-flamingo text-left">Galería</button></li>
                             <li><button onClick={() => scrollToSection('#tours')} className="hover:translate-x-2 inline-block transition-transform hover:text-flamingo text-left">Tours</button></li>
+                            <li><button onClick={() => scrollToSection('#faq')} className="hover:translate-x-2 inline-block transition-transform hover:text-flamingo text-left">Preguntas Frecuentes</button></li>
                             <li><button onClick={() => scrollToSection('#reserva')} className="hover:translate-x-2 inline-block transition-transform hover:text-flamingo text-left">Contacto</button></li>
                         </ul>
                     </div>

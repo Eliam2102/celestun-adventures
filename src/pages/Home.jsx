@@ -12,6 +12,7 @@ import Loader from '../components/Loader';
 import Features from '../components/Features';
 import Reviews from '../components/Reviews';
 import BlogSection from '../components/BlogSection';
+import FAQ from '../components/FAQ';
 
 const Home = () => {
     const [loading, setLoading] = useState(true);
@@ -37,6 +38,7 @@ const Home = () => {
                 <Tours />
                 <Reviews />
                 <BlogSection />
+                <FAQ />
                 <Contact />
             </main>
             <Footer />
